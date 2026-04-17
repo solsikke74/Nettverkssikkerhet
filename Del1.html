@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Min portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="live">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Gjør designet responsivt etter størrelsen-->
+<!-- width=device-width - gjør at designet tilpasses skjermbredden -->
+ <!-- initial-scale=1.0 - setter utgangspunkt for zooming når siden først lastes i nettleseren -->
+ <link rel="stylesheet" href="Flex.css">
+</head>
+<body>
+
+
+<ul class="topnav">
+    <li><a href="index.html">Hjem</a></li>
+    <li><a href="Del1.html">Del 1</a></li>
+    <li><a href="Del2.html">Del 2</a></li>
+    <li><a href="#about">Del 3</a></li>
+    <li><a href="#about">Del 4</a></li>
+  </ul>
+</topnav>
+
+
+<main>
+<h1>Del 1</h1>
+<p>Her har jeg brukt <a href="https://www.w3schools.com/howto/howto_css_product_card.asp">produktkort </a> for utseende, og <a href="https://www.w3schools.com/css/css_website_layout.asp"> website layout</a> for å plassere kortene i en fin layout. </p>
+<p>Her er innholdet for del 1 av webområdet mitt for websikkerhet.</p>
+
+<div class="flex-container"> 
+    <div class="card">
+        <img src="Images/owasp.png" alt="informasjon om owasp" style="width:100%" height="200px">
+        <h1></h1>
+        <p class="price">2025</p>
+        <p>Rangering av sårbarheter med typer, ID, navn og forklaring</p>
+        <p>Link til cwe med grafisk fremstilling, med kodeforslag for å beskytte backend. </p>
+        <p><ul class="linkcard"><li><a href="https://cwe.mitre.org/data/definitions/1450.html">Les mer her</a></li></ul></linkcard></p>
+    </div>
+    <div class="card">
+        <img src="Images/mitre.png" alt="informasjon om mitre" style="width:100%" height="200px">
+        <h1></h1>
+        <p class="price">Nettverksforsvar</p>
+        <p>Retningslinjer for å klassifisere og beskrive trusler og angrep i IT-systemer.</p>
+        <p>Prøver å <a href="https://attack.mitre.org/resources/">forstå hvordan angriperen tenker</a> for å kunne forsvare seg.</p>
+        <p><ul class="linkcard"><li><a href="https://attack.mitre.org/">Les mer her</a></li></ul></linkcard></p>
+    </div>
+    <div class="card">
+        <img src="Images/capec.png" alt="informasjon om capec" style="width:100%" height="200px">
+        <h1></h1>
+        <p class="price">Applikasjonssikkerhet</p>
+        <p>Et katalog over kjente angrepsmønstre og deres beskrivelser.</p>
+        <p><a href="https://capec.mitre.org/about/new_to_capec.html">Her </a>finner du en oversikt over hvordan nettstedet fungerer. </p>
+        <p><ul class="linkcard"><li><a href="https://capec.mitre.org/">Les mer her</a></li></ul></linkcard></p>
+    </div>
+    <div class="card">
+        <img src="Images/cwe.svg" alt="informasjon om cwe" style="width:100%" height="200px">
+        <h1></h1>
+        <p class="price">Sårbarheter</p>
+        <p>Har en detaljert oversikt over kjente sårbarheter i IT-systemer.</p>
+        <p>En sårbarhet er en svakhet i et system som kan utnyttes av en angriper.</p>
+        <p><ul class="linkcard"><li><a href="https://cwe.mitre.org/">Les mer her</a></li></ul></linkcard></p>
+    </div>
+</div>
+<div class="flex-container"> 
+    <div class="card">
+        <img src="Images/cve.jpeg" alt="informasjon om cve" style="width:100%" height="200px">
+        <h1></h1>
+        <p class="price">Klassifisering</p>
+        <p>Programvare, maskinvare, firmware og servicekomponenter.</p>
+        <p>Ser på integritet, konfidensialitet og tilgjengelighet.</p>
+        <p><ul class="linkcard"><li><a href="https://www.cvedetails.com/">Les mer her</a></li></ul></linkcard></p>
+    </div>
+    <div class="card">
+        <img src="Images/cvss.svg" alt="informasjon om cvss" style="width:100%" height="200px">
+        <h1></h1>
+        <p class="price">Skåringssystem for sårbarheter</p>
+        <p></p>
+        <p></p>
+        <p><ul class="linkcard"><li><a href="https://www.first.org/cvss/">Les mer her</a></li></ul></linkcard></p>
+    </div>
+    <div class="card">
+        <img src="Images/mitre.png" alt="informasjon om mitre" style="width:100%">
+        <h1>Mitre</h1>
+        <p class="price">Test</p>
+        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+        <p><ul class="linkcard"><li><a href="https://attack.mitre.org/">Les mer her</a></li></ul></linkcard></p>
+    </div>
+    <div class="card">
+        <img src="Images/mitre.png" alt="informasjon om mitre" style="width:100%">
+        <h1>Mitre</h1>
+        <p class="price">Test</p>
+        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+        <p><ul class="linkcard"><li><a href="https://attack.mitre.org/">Les mer her</a></li></ul></linkcard></p>
+    </div>
+</div>
+</main>
+
+<p>Lenker</p>
+<a href="https://attack.mitre.org/" target="_blank">ATT&CK</a><br>
+<a href="https://owasp.org/Top10/2025/" target="_blank">OWASP</a><br>
+<img src="Images/OWASP_2025.png" alt="Sammenligner OWASP 2021 vs 2025" style="width:100%"><br>
+<a href="https://owasp.org/www-project-application-security-verification-standard/" target="_blank">ASVS</a> Metode for å teste web applikasjoner. <br>
+<a href="https://cve.mitre.org/" target="_blank">CVE</a><br>
+
+<footer>
+  <div class="footer">
+       <a href="index.html">Hjem</a>
+  </div>
+</footer>
+
+</body>
+</html>
